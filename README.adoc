@@ -1,4 +1,6 @@
 = AsciiDoc Test Bench
+:toc: left
+:toclevels: 3
 
 Evaluating https://asciidoc.org/[AsciiDoc] for use in the documentation instead of Markdown.
 
@@ -15,18 +17,20 @@ Some notes on what this document is for:
 * To test the AsciiDoc rendering in GitHub
 * Try to get a GitHub Action to render the AsciiDoc to HTML and publish it to GitHub Pages
 ** https://pages.github.com/[GitHub Pages]
-** https://github.com/marketplace/actions/asciidoctor-ghpages[AsciiDoctor GitHub Pages Action]
+** https://github.com/marketplace/actions/asciidoctor-ghpages[Asciidoctor GitHub Pages Action]
+
+NOTE: This document is not intended to be a comprehensive guide to AsciiDoc. For that, see the links below.
 
 == Documentation
 
+* https://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writer's Guide]
+** _A Gentle Introduction to AsciiDoc_
 * https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc Language Documentation]
-* https://docs.asciidoctor.org/[AsciiDoctor Documentation Site]
-
+* https://docs.asciidoctor.org/[Asciidoctor Documentation Site]
 
 == Tools
 
 * https://asciidoc.org/#tools[AsciiDoc Tools]
-* https://asciidoctor.org/[AsciiDoctor]
+* https://asciidoctor.org/[Asciidoctor]
 ** _A fast text processor & publishing toolchain for converting AsciiDoc to HTML5, DocBook & more._
-
 
