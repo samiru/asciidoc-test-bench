@@ -1,10 +1,32 @@
 = AsciiDoc Test Bench
 
-Evaluating AsciiDoc for use in the documentation instead of Markdown.
+Evaluating https://asciidoc.org/[AsciiDoc] for use in the documentation instead of Markdown.
 
-From the AsciiDoc website:
+From the AsciiDoctor website:
 
 [quote, AsciiDoctor, https://docs.asciidoctor.org/asciidoc/latest/]
 AsciiDoc is a lightweight and semantic markup language primarily designed for writing technical documentation. The language can be used to produce a variety of presentation-rich output formats, all from content encoded in a concise, human-readable, plain text format.
+
+== About this document
+
+Some notes on what this document is for:
+
+* To test the AsciiDoc syntax
+* To test the AsciiDoc rendering in GitHub
+* Try to get a GitHub Action to render the AsciiDoc to HTML and publish it to GitHub Pages
+** https://pages.github.com/[GitHub Pages]
+** https://github.com/marketplace/actions/asciidoctor-ghpages[AsciiDoctor GitHub Pages Action]
+
+== Documentation
+
+* https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc Language Documentation]
+* https://docs.asciidoctor.org/[AsciiDoctor Documentation Site]
+
+
+== Tools
+
+* https://asciidoc.org/#tools[AsciiDoc Tools]
+* https://asciidoctor.org/[AsciiDoctor]
+** _A fast text processor & publishing toolchain for converting AsciiDoc to HTML5, DocBook & more._
 
 
