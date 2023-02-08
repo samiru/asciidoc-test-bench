@@ -1,15 +1,19 @@
 = AsciiDoc Test Bench
-:toc: left
-:toclevels: 3
+:description: A place to test AsciiDoc syntax and rendering
 
 Evaluating https://asciidoc.org/[AsciiDoc] for use in the documentation instead of Markdown.
-
-From the AsciiDoctor website:
 
 [quote, AsciiDoctor, https://docs.asciidoctor.org/asciidoc/latest/]
 AsciiDoc is a lightweight and semantic markup language primarily designed for writing technical documentation. The language can be used to produce a variety of presentation-rich output formats, all from content encoded in a concise, human-readable, plain text format.
 
 == About this document
+|===
+| AsciiDoc | AsciiDoctor
+
+| AsciiDoc is a lightweight and semantic markup language primarily designed for writing technical documentation. The language can be used to produce a variety of presentation-rich output formats, all from content encoded in a concise, human-readable, plain text format.
+
+| AsciiDoctor is a fast text processor and publishing toolchain for converting AsciiDoc content to HTML5, DocBook, PDF, and other formats. It is written in Ruby and runs on all major operating systems.
+|===
 
 Some notes on what this document is for:
 
@@ -17,6 +21,7 @@ Some notes on what this document is for:
 * To test the AsciiDoc rendering in GitHub
 * Try to get a GitHub Action to render the AsciiDoc to HTML and publish it to GitHub Pages
 ** https://pages.github.com/[GitHub Pages]
+*** https://docs.github.com/en/pages
 ** https://github.com/marketplace/actions/asciidoctor-ghpages[Asciidoctor GitHub Pages Action]
 
 NOTE: This document is not intended to be a comprehensive guide to AsciiDoc. For that, see the links below.
@@ -33,4 +38,18 @@ NOTE: This document is not intended to be a comprehensive guide to AsciiDoc. For
 * https://asciidoc.org/#tools[AsciiDoc Tools]
 * https://asciidoctor.org/[Asciidoctor]
 ** _A fast text processor & publishing toolchain for converting AsciiDoc to HTML5, DocBook & more._
+
+== Extensions
+
+* https://docs.asciidoctor.org/diagram-extension/latest/[Asciidoctor Diagram]
+** _A set of Asciidoctor extensions that enable you to include diagrams in your AsciiDoc documents using a number of different formats, including PlantUML, Graphviz, Ditaa, and more._
+
+
+
+== Other
+
+* Asciidoctor & Structurizr (C4):
+** https://blog.codecentric.de/architecture-documentation-docs-as-code-structurizr-asciidoctor[Architecture docs as code with Structurizr & Asciidoctor. Part 1: Workflow and tooling]
+
+
 
