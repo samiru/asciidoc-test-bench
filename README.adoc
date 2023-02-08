@@ -1,21 +1,31 @@
 = AsciiDoc Test Bench
 :description: A place to test AsciiDoc syntax and rendering
 
-Evaluating https://asciidoc.org/[AsciiDoc] for use in the documentation instead of Markdown.
-
-[quote, AsciiDoctor, https://docs.asciidoctor.org/asciidoc/latest/]
+____
 AsciiDoc is a lightweight and semantic markup language primarily designed for writing technical documentation. The language can be used to produce a variety of presentation-rich output formats, all from content encoded in a concise, human-readable, plain text format.
+____
+
 
 == About this document
+
+Evaluating https://asciidoc.org/[AsciiDoc] for use in the documentation instead of Markdown.
+
+Some definitions, first:
+
 |===
-| AsciiDoc | AsciiDoctor
+| AsciiDoc | Asciidoctor
 
 | AsciiDoc is a lightweight and semantic markup language primarily designed for writing technical documentation. The language can be used to produce a variety of presentation-rich output formats, all from content encoded in a concise, human-readable, plain text format.
 
-| AsciiDoctor is a fast text processor and publishing toolchain for converting AsciiDoc content to HTML5, DocBook, PDF, and other formats. It is written in Ruby and runs on all major operating systems.
+| Asciidoctor is a fast text processor and publishing toolchain for converting AsciiDoc content to HTML5, DocBook, PDF, and other formats. It is written in Ruby and runs on all major operating systems.
+
+| https://asciidoc.org/
+
+| https://asciidoctor.org/
+
 |===
 
-Some notes on what this document is for:
+This document is for:
 
 * To test the AsciiDoc syntax
 * To test the AsciiDoc rendering in GitHub
@@ -26,6 +36,15 @@ Some notes on what this document is for:
 
 NOTE: This document is not intended to be a comprehensive guide to AsciiDoc. For that, see the links below.
 
+[source, typescript]
+----
+
+const foo = (bar: string): string => {
+  return bar;
+};
+----
+
+
 == Documentation
 
 * https://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writer's Guide]
@@ -33,17 +52,18 @@ NOTE: This document is not intended to be a comprehensive guide to AsciiDoc. For
 * https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc Language Documentation]
 * https://docs.asciidoctor.org/[Asciidoctor Documentation Site]
 
+
 == Tools
 
 * https://asciidoc.org/#tools[AsciiDoc Tools]
 * https://asciidoctor.org/[Asciidoctor]
 ** _A fast text processor & publishing toolchain for converting AsciiDoc to HTML5, DocBook & more._
 
+
 == Extensions
 
 * https://docs.asciidoctor.org/diagram-extension/latest/[Asciidoctor Diagram]
 ** _A set of Asciidoctor extensions that enable you to include diagrams in your AsciiDoc documents using a number of different formats, including PlantUML, Graphviz, Ditaa, and more._
-
 
 
 == Other
