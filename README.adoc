@@ -36,13 +36,16 @@ This document is for:
 
 NOTE: This document is not intended to be a comprehensive guide to AsciiDoc. For that, see the links below.
 
+.Source code, with syntax highlighting and callouts:
 [source, typescript]
 ----
 
-const foo = (bar: string): string => {
-  return bar;
+const foo = (bar: string): string => {  <1>
+  return bar; <2>
 };
 ----
+<1> The function takes a string as a parameter and returns a string.
+<2> The function returns the string that was passed in.
 
 
 == Documentation
